@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elementExample {
+
+    background-color: purple; /*COR DO FUNDO*/
+    width: 200px; /*LARGURA FIXA EM 200 PIXELS*/
+    height: 200px; /*ALTURA FIXA EM 200 PIXELS*/
+    color: white; /*COR DA FONTE*/
+    text-align: center; /*ALINHA O TEXTO NO CENTRO*/
+    text-transform: uppercase; /*TRANSFORMA LETRA EM MAIÚSCULA*/
+    cursor:  pointer; /*TRANSFORMA O MOUSE EM UMA MÃO*/
+    line-height: 200px; /* permite controlar o espaçamento entre as linhas de um texto*/
+
+}
+
+.element-first { /*UMA DIV*/
+    background-color:red; /*COR DO FUNDO*/
+    position: absolute; /* PERMITE ALTERAR A POSIÇÃO DO ELEMENTO ELE FICA FLUTUANDO*/
+    right: 0;
+    
+}
+
+.element-second { /*OUTRA DIV*/
+    background-color:green; /*COR DO FUNDO*/
+    position: absolute; /* PERMITE ALTERAR A POSIÇÃO DO ELEMENTO ELE FICA FLUTUANDO*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    
+}
+
+.element-last {
+    background-color:blue;/*COR DO FUNDO*/
+    position: absolute; /* PERMITE ALTERAR A POSIÇÃO DO ELEMENTO ELE FICA FLUTUANDO*/
+}
+
+.internal-example { /*DIV INTERNA*/
+    position: absolute; /* PERMITE ALTERAR A POSIÇÃO DO ELEMENTO ELE FICA FLUTUANDO*/
+    width: 100px; /*LARGURA FIXA EM 100 PIXELS*/
+    height: 100px; /*ALTURA FIXA EM 100 PIXELS*/
+    line-height: 100px; /* permite controlar o espaçamento entre as linhas de um texto*/
+    background-color: lightblue; /*COR DO FUNDO*/
+    border: solid 1px red; /* COLOCA UMA BORDA EM VOLTA DA DIV*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
